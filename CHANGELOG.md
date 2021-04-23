@@ -1,3 +1,20 @@
+# [0.2.0](https://github.com/fussel178/conventional-release-dispatch/compare/v0.1.1...v0.2.0) (2021-04-23)
+
+
+### Bug Fixes
+
+* Build env file in release workflow ([351ebc1](https://github.com/fussel178/conventional-release-dispatch/commit/351ebc1a055fabf81a768eb6b010ae0f903137b3))
+* Indentation in release workflows ([ed50632](https://github.com/fussel178/conventional-release-dispatch/commit/ed506329d707a3d122f6275d4977fff7e3c6813d))
+
+
+### Features
+
+* Add artifacts ([d15dfd9](https://github.com/fussel178/conventional-release-dispatch/commit/d15dfd9cc272b34cde9898f19593bb2551eca719))
+* Build and release workflows for 2 artifacts ([944ca3d](https://github.com/fussel178/conventional-release-dispatch/commit/944ca3d7bb3759c9889dff72feb03bacf648f3b3))
+* Cache build environment in release ([e8e4cc4](https://github.com/fussel178/conventional-release-dispatch/commit/e8e4cc4edb9bd7e3ff26588197a070ea6d56ffc4))
+
+
+
 ## [0.1.1](https://github.com/fussel178/conventional-release-dispatch/compare/v0.1.0...v0.1.1) (2021-04-23)
 
 
