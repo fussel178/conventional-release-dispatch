@@ -1,4 +1,13 @@
-# 0.1.0 (2021-04-23)
+## [0.1.1](https://github.com/fussel178/conventional-release-dispatch/compare/v0.1.0...v0.1.1) (2021-04-23)
+
+
+### Bug Fixes
+
+* Build and release workflow ([de40fe5](https://github.com/fussel178/conventional-release-dispatch/commit/de40fe55593b8be05bf61a8b9bd2bea73b1029fa))
+
+
+
+# [0.1.0](https://github.com/fussel178/conventional-release-dispatch/compare/87f227cff72830ea18363336f70396eaf1cb5348...v0.1.0) (2021-04-23)
 
 
 ### Bug Fixes
