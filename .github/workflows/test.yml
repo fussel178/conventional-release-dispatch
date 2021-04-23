@@ -1,0 +1,15 @@
+name: Test
+
+# Events that trigger this workflow
+on: [push, pull_request]
+
+jobs:
+  simple-test:
+    name: Do a simple test run
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout 📥
+        uses: actions/checkout@v2.3.4
+
+      - name: Test something
+        runs: echo "Tested!"
