@@ -19,7 +19,7 @@ jobs:
         uses: actions/cache@v2.1.5
         with:
           path: ~/.build-env
-        key: 'github-release-action'
+          key: 'github-release-action'
 
       - name: Import environment
         run: cat ~/.build-env >> $GITHUB_ENV
