@@ -1,0 +1,41 @@
+name: Build on release artifact 2
+
+# Events that trigger this workflow
+on:
+  workflow_run:
+    workflows: ["Release"]
+    types: [completed]
+
+jobs:
+  build-and-upload:
+    name: Build and upload
+    runs-on: ubuntu-latest
+    if: ${{ github.event.workflow_run.conclusion == 'success' }}
+    steps:
+      - name: Checkout 📥
+        uses: actions/checkout@v2.3.4
+
+      - name: Restore cache release upload URL ♻️
+        uses: actions/cache@v2.1.5
+        with:
+          path: ~/.build-env
+        key: 'github-release-action'
+
+      - name: Import environment
+        run: cat ~/.build-env >> $GITHUB_ENV
+
+      - name: Output received variables
+        run: |
+          echo "upload_url=${{ env.upload_url }}"
+          echo "tag=${{ env.tag }}"
+          echo "skipped=${{ env.skipped }}"
+
+      - name: Upload release asset
+        uses: actions/upload-release-asset@v1.0.1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          upload_url: ${{ env.upload_url }}
+          asset_path: ./dist/artifact2.txt
+          asset_name: artifact2.txt
+          asset_content_type: text/plain
