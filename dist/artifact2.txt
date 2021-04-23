@@ -1,0 +1,2 @@
+I am artifact 2!
+You can delete me now!
