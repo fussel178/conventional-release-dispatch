@@ -36,9 +36,9 @@ jobs:
 
       - name: Store upload url 🗜
         run: |
-          echo "upload_url=${UPLOAD_URL}" >> ~/build-env
-          echo "tag=${RELEASE_TAG}" >> ~/build-env
-          echo "skipped=${RELEASE_SKIPPED}" >> ~/build-env
+          echo "upload_url=${UPLOAD_URL}" >> ~/.build-env
+          echo "tag=${RELEASE_TAG}" >> ~/.build-env
+          echo "skipped=${RELEASE_SKIPPED}" >> ~/.build-env
         env:
           UPLOAD_URL: ${{ steps.create_release.outputs.upload_url }}
           RELEASE_TAG: ${{ steps.changelog.outputs.tag }}
