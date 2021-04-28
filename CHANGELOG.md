@@ -1,3 +1,12 @@
+## [0.2.6](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.5...v0.2.6) (2021-04-28)
+
+
+### Bug Fixes
+
+* Something :/ ([eb05d05](https://github.com/fussel178/conventional-release-dispatch/commit/eb05d05dae8c15eb2b6195a518e9ae8e23d19f90))
+
+
+
 ## [0.2.5](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.4...v0.2.5) (2021-04-28)
 
 
