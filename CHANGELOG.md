@@ -1,3 +1,12 @@
+## [0.2.5](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.4...v0.2.5) (2021-04-28)
+
+
+### Bug Fixes
+
+* Unset and set download path ([37e021a](https://github.com/fussel178/conventional-release-dispatch/commit/37e021aaeb3048ebf22e27cef96da8a5f1785df4))
+
+
+
 ## [0.2.4](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.3...v0.2.4) (2021-04-28)
 
 
