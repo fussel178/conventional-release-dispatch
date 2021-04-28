@@ -21,7 +21,6 @@ jobs:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
           name: build-env
-          path: '~/.build-env'
 
       - name: Import environment
         run: cat ~/.build-env >> $GITHUB_ENV
