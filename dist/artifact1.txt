@@ -1,2 +1,2 @@
 I am artifact 1!
-You can delete me now!
+You cannot delete me now!
