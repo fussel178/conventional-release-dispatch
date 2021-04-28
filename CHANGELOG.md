@@ -1,3 +1,12 @@
+## [0.2.4](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.3...v0.2.4) (2021-04-28)
+
+
+### Bug Fixes
+
+* Artifact download path ([929cb68](https://github.com/fussel178/conventional-release-dispatch/commit/929cb68d68674ed60b851bea7eb678c8b86d8a93))
+
+
+
 ## [0.2.3](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.2...v0.2.3) (2021-04-28)
 
 
