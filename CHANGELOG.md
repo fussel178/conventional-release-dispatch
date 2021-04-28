@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.6...v0.3.0) (2021-04-28)
+
+
+### Features
+
+* Something moar! ([7c04333](https://github.com/fussel178/conventional-release-dispatch/commit/7c043332e236b03b5b5d512650060ebcddba481f))
+
+
+
 ## [0.2.6](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.5...v0.2.6) (2021-04-28)
 
 
