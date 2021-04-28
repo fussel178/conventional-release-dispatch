@@ -23,8 +23,11 @@ jobs:
           name: build-env
           path: '~'
 
+      - name: List directory contents
+        run: 'ls -lhaR ~'
+
       - name: Import environment
-        run: cat ~/.build-env >> $GITHUB_ENV
+        run: cat ~/.build-env/.build-env >> $GITHUB_ENV
 
       - name: Output received variables
         run: |
