@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.0...v0.2.1) (2021-04-28)
+
+
+### Bug Fixes
+
+* Remove cache as it is not usable and use artifacts instead ([8293192](https://github.com/fussel178/conventional-release-dispatch/commit/8293192b3ada9a9b8713d3c5ed0e57f07592df7a))
+
+
+
 # [0.2.0](https://github.com/fussel178/conventional-release-dispatch/compare/v0.1.1...v0.2.0) (2021-04-23)
 
 
