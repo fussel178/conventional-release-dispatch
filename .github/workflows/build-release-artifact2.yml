@@ -21,13 +21,13 @@ jobs:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
           name: build-env
-          path: '.build-env'
+          path: ${{ github.workspace }}
 
       - name: List directory contents
         run: 'ls -lhaR ~'
 
       - name: Import environment
-        run: cat ~/.build-env/.build-env >> $GITHUB_ENV
+        run: cat .build-env >> $GITHUB_ENV
 
       - name: Output received variables
         run: |
