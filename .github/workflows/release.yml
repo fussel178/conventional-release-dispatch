@@ -43,3 +43,4 @@ jobs:
         with:
           name: build-env
           path: '~/.build-env'
+          retention-days: 1

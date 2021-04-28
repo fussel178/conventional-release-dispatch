@@ -21,7 +21,6 @@ jobs:
           workflow: ${{ github.event.workflow_run.workflow_id }}
           workflow_conclusion: success
           name: build-env
-          path: '~'
 
       - name: List directory contents
         run: 'ls -lhaR ~'
