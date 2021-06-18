@@ -39,7 +39,7 @@ jobs:
           RELEASE_SKIPPED: ${{ steps.changelog.outputs.skipped }}
 
       - name: Upload build environment 📤
-        uses: actions/upload-artifact@v2.2.3
+        uses: actions/upload-artifact@v2.2.4
         with:
           name: build-env
           path: '~/.build-env'
