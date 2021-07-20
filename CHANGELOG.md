@@ -1,3 +1,7 @@
+## [0.3.1](https://github.com/fussel178/conventional-release-dispatch/compare/v0.3.0...v0.3.1) (2021-07-20)
+
+
+
 # [0.3.0](https://github.com/fussel178/conventional-release-dispatch/compare/v0.2.6...v0.3.0) (2021-04-28)
 
 
